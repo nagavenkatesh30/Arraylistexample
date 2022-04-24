@@ -1,4 +1,5 @@
 import java.util.HashSet;
+import java.util.Iterator;
 
 import javax.print.attribute.HashPrintServiceAttributeSet;
 
@@ -24,6 +25,27 @@ System.out.println(hs.size());
 System.out.println(hs);
 
 System.out.println(hs.isEmpty());
+
+// HashSet using iterator
+/*
+Iterator<String> i=hs.iterator();
+i.next();
+System.out.println(i.next());
+*/
+
+//using while loop
+Iterator<String> i=hs.iterator();
+
+while(i.hasNext())
+{
+	System.out.println(i.next());
+
+}
+
+
+
+
 	}
+	
 
 }
