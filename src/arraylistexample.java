@@ -22,6 +22,10 @@ System.out.println(a);
 System.out.println(a.get(2));
 System.out.println(a.contains("aditya"));
 
+System.out.println(a.indexOf("aditya"));
+System.out.println(a.isEmpty());
+System.out.println(a.size());
+
 	}
 
 }
